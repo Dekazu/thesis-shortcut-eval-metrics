@@ -1,0 +1,11 @@
+artifacts_file: data/artifacts_isic.json # Path to the artifacts file for the ISIC dataset
+batch_size: 12
+ckpt_path: /YOUR/PATH/TO/CHECKPOINTS/resnet50d_last_conv.pth # Path to the checkpoint file for ResNet50D at layer last_conv
+data_paths:
+- /YOUR/PATH/TO/DATASET # Path to the dataset, e.g., ISIC2019
+dataset_name: isic # Name of the dataset
+device: cuda
+dir_precomputed_data: /YOUR/PATH/TO/PRECOMPUTED_DATA
+img_size: 224
+layer_name: last_conv
+model_name: resnet50d

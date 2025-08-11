@@ -1,0 +1,58 @@
+{
+    "isic_attacked": {
+        "vgg16": {
+            "0.3" :["sgd", 0.005]
+        },
+        "resnet50d": {
+            "0.3" :["adam", 0.0025]
+        }
+    },
+    "isic_attacked_clean": {
+        "vgg16": ["sgd", 0.001, 0.025],
+        "resnet50d": ["adam", 0.001, 0.05]
+    },
+    "waterbirds": {
+        "vgg16": {
+            "0.05": ["sgd", 0.0005]
+        },
+        "resnet50d": {
+            "0.05": ["adam", 0.005]
+        }
+    },
+    "waterbirds_clean": {
+        "vgg16": ["sgd", 0.005, 0.01],
+        "resnet50d": ["adam", 0.0005, 0.05]
+    },
+
+    "imagenet_attacked_dog": {
+        "vgg16": {
+            "0.3": ["sgd", 0.0005, 0.0001]
+        },
+        "resnet50d": {
+            "0.3": ["sgd", 0.005, 0.0025]
+        }
+    },
+
+    "imagenet_attacked_clean_dog": {
+        "vgg16": ["sgd", 0.001, 0.05],
+        "resnet50d": ["sgd", 0.001, 0.025]
+    },
+    "imagenet_attacked_frog": { 
+        "vgg16": {
+            "0.2": ["sgd", 0.001, 0.0001],
+            "0.3": ["sgd", 0.001, 5e-05],
+            "0.4": ["sgd", 0.0005, 5e-05],
+            "0.5": ["sgd", 0.0005, 5e-05]
+        },
+        "resnet50d": {
+            "0.2": ["sgd", 0.005, 0.00025],
+            "0.3": ["sgd", 0.005, 0.00025],
+            "0.4": ["sgd", 0.005, 0.00025],
+            "0.5": ["sgd", 0.005, 0.00025]
+        }
+    },
+    "imagenet_attacked_clean_frog": {
+        "vgg16": ["sgd", 0.001, 0.05],
+        "resnet50d": ["sgd", 0.005, 0.025]
+    }
+}

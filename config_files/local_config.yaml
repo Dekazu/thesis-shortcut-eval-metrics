@@ -1,0 +1,15 @@
+isic2019_dir: /PATH/TO/ISIC2019
+isic2020_dir: /PATH/TO/ISIC2020
+waterbirds: /PATH/TO/WATERBIRDS # Where to save created Waterbirds Datasets
+cub_places_path: /PATH/TO/CUB_PLACES # a folder that combines CUB and Places dataset to create Waterbirds
+imagenet_dir: /PATH/TO/IMAGENET 
+mnist_dir: /PATH/TO/MNIST # Where to save MNIST dataset
+funnybirds_ch_dir: /PATH/TO/FUNNYBIRDS_CH # Where to save FunnyBirds_ch dataset
+funnybirds_forced_concept_dir: /PATH/TO/FUNNYBIRDS_FORCED_CONCEPT # Where to save FunnyBirds_forced_concept_gt dataset
+funnybirds_dir: /PATH/TO/FUNNYBIRDS_ORIG # Where to save FunnyBirds_orig dataset
+celeba_dir: /PATH/TO/CELEBA # Where to save CelebA dataset
+checkpoint_dir: /PATH/TO/CHECKPOINTS # Where to save checkpoints
+checkpoint_dir_corrected: /PATH/TO/CHECKPOINTS_CORRECTED # Where to save corrected checkpoints
+dir_precomputed_data: /PATH/TO/PRECOMPUTED_DATA # Where to save precomputed data
+local_batch_size: 12
+local_device: cuda
