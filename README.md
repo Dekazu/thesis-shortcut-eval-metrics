@@ -7,7 +7,7 @@
 - [Model Training (optional)](#model-training-optional)
 - [Preprocessing](#preprocessing)
 - [Bias Mitigation](#bias-mitigation)
-- [Evaluation](#bias-evaluation)
+- [Evaluation](#evaluation)
 
 ## Prerequisites
 ### Installation
@@ -111,3 +111,7 @@ python -m experiments.evaluation.compute_mi --config_file $CONFIG_FILE
 ```
 
 We can use the config files in ``config_files/evaluate_metrics_clean`` to evaluate metrics without further training and/or mitigation
+
+
+
+Code is based on [Medical-AI-Safety by Pahde et al.](https://github.com/frederikpahde/medical-ai-safety/) and [Reveal to Revise Framework by Pahde et al.](https://github.com/maxdreyer/Reveal2Revise)
