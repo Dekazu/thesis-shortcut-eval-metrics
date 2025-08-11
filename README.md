@@ -34,7 +34,7 @@ unzip ISIC_2019_Training_GroundTruth.zip
 To download Waterbirds, we have to download the CUB Dataset and Places Dataset and place them together in one folder to create the Waterbirds dataset. 
 ImageNet can be downloaded from: [https://www.image-net.org/](https://www.image-net.org/)
 
-## Model Training (optional)
+## Model Training
 
 With the required packages installed and the datasets downloaded, the models can be trained. To consolidate training parameters in a unified file, we utilize configuration files (`.yaml`-files). These files specify training hyperparameters, such as architecture, optimizer and learning rate, as well as dataset parameters and output directories. 
 
